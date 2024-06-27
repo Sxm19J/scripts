@@ -24,7 +24,7 @@ request({
                     },
                     {
                         name = "Bounty/Honor",
-                        value = game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value,
+                        value = "```"..game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value.."```",
                         inline = true,
                     }, 
                 },
