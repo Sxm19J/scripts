@@ -13,8 +13,8 @@ request({
         content = "",
         embeds = {
             {
-                title = "Server Hopped!",
-                description = "You just server hopped!",
+                title = "Bounty Update!",
+                description = "Updates every execution",
                 color = 0x051,
                 fields = {
                     {
