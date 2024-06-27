@@ -5,7 +5,7 @@ end
 task.wait(1)
 
 local httpService = game:GetService("HttpService")
-local webhookURL = getgenv().webhook
+local webhookURL = "https://discord.com/api/webhooks/1255956844384485377/9Fu6YKJJJ26kZBe4Atz7m2-KQMQFMTVb_UiwFghjjC0-wzWdRecvUllAOc8YnI15p0eT"
 
 local request = (syn and syn.request) or request or (http and http.request) or http_request
 
