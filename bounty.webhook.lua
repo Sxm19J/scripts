@@ -1,3 +1,9 @@
+while game.Players.LocalPlayer.Team == nil do
+    task.wait()
+end
+
+task.wait(1)
+
 local httpService = game:GetService("HttpService")
 local webhookURL = getgenv().webhook
 
