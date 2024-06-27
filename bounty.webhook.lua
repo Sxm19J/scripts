@@ -19,12 +19,12 @@ request({
                 fields = {
                     {
                         name = "Username",
-                        value = game.Players.LocalPlayer.Name.." ("..game.Players.LocalPlayer.DisplayName..")",
+                        value = game.Players.LocalPlayer.Name,
                         inline = true,
                     },
                     {
                         name = "Bounty/Honor",
-                        value = "```"..game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value.."```",
+                        value = game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value,
                         inline = true,
                     }, 
                 },
