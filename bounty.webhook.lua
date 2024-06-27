@@ -1,4 +1,4 @@
-inlocal httpService = game:GetService("HttpService")
+local httpService = game:GetService("HttpService")
 local webhookURL = getgenv().webhook
 
 local request = (syn and syn.request) or request or (http and http.request) or http_request
