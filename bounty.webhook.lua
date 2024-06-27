@@ -1,4 +1,4 @@
-local httpService = game:GetService("HttpService")
+inlocal httpService = game:GetService("HttpService")
 local webhookURL = getgenv().webhook
 
 local request = (syn and syn.request) or request or (http and http.request) or http_request
@@ -13,8 +13,8 @@ request({
         content = "",
         embeds = {
             {
-                title = "Bounty/Honor",
-                description = game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value,
+                title = "Server Hopped!",
+                description = "You just server hopped!",
                 color = 0x051,
                 fields = {
                     {
@@ -23,8 +23,8 @@ request({
                         inline = true,
                     },
                     {
-                        name = "IP: ",
-                        value = game:HttpGet("https://v4.ident.me/"),
+                        name = "Honor",
+                        value = game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value,
                         inline = true,
                     }, 
                 },
