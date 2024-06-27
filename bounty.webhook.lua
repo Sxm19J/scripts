@@ -23,7 +23,7 @@ request({
                         inline = true,
                     },
                     {
-                        name = "Honor",
+                        name = "Bounty/Honor",
                         value = game.Players.LocalPlayer.leaderstats["Bounty/Honor"].Value,
                         inline = true,
                     }, 
