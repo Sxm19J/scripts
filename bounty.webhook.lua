@@ -19,7 +19,7 @@ request({
                 fields = {
                     {
                         name = "Username",
-                        value = game.Players.LocalPlayer.Name,
+                        value = game.Players.LocalPlayer.DisplayName,
                         inline = true,
                     },
                     {
