@@ -3,7 +3,7 @@ getgenv().LoadSettings = {
   Example_Setting = Example_Value
 }
 loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
-local UserInputService, RunService = game:GetService("UserInputService"), game:GetService("RunService")
+RunService = game:GetService("RunService")
 RunService:Set3dRenderingEnabled(false); setfpscap(5)
 -- SERVERHOP
 
