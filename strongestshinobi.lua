@@ -72,7 +72,8 @@ function Teleport()
 end
 
 local boss = game.Workspace.NPCs:FindFirstChild("Aizen")
-if boss then
+local aboss = game.Workspace.NPCs:FindFirstChild("Manipulator")
+if boss or aboss then
     print("Boss found")
 else
     Teleport()
