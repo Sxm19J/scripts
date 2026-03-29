@@ -73,7 +73,8 @@ end
 
 local boss = game.Workspace.NPCs:FindFirstChild("Aizen")
 local aboss = game.Workspace.NPCs:FindFirstChild("Manipulator")
-if boss or aboss then
+local bboss = game.Workspace.NPCs:FindFirstChild("StrongestShinobi")
+if boss or aboss or bboss then
     print("Boss found")
 else
     Teleport()
