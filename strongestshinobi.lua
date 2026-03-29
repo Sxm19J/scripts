@@ -29,7 +29,7 @@ function TPReturner()
         local MaxPlayers = v.maxPlayers
         ID = tostring(v.id)
         -- check if the server is not full
-        if MaxPlayers > PlayerCount * 0.8 then -- try to avoid full servers by 20%
+        if MaxPlayers > PlayerCount * 0.5 then -- try to avoid full servers by 20%
             for _,Existing in pairs(AllIDs) do
                 if num ~= 0 then
                     if ID == tostring(Existing) then
