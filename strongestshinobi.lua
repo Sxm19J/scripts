@@ -71,7 +71,7 @@ function Teleport()
     end
 end
 
-local boss = game.Workspace.NPCs:FindFirstChild("StrongestShinobiBoss")
+local boss = game.Workspace.NPCs:FindFirstChild("Aizen")
 if boss then
     print("Boss found")
 else
